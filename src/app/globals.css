@@ -2,20 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.main{
+  color: gold;
+  font-weight:bolder;
+  margin-left: 40%;
+  margin-bottom: -5%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+h1{
+  font-size:xx-large;
+  margin-bottom: 30px;
+  padding: 50px;
+  color: white;
+  margin-left: -20%;
+}
+.insta{
+  color: darkmagenta;
+  margin-left: 50px;
+  margin-top:8%;
+  width: 70px;
+  height: 70px;
+}
+.linkedin{
+  color:blue;
+  margin-left: 140px;
+  margin-top:-5%;
+  width: 70px;
+  height: 70px;
+}
+.github{
+  color:yellow;
+  margin-left: 220px;
+  margin-top:-5%;
+  width: 70px;
+  height: 70px;
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size:x-large;
+    margin-bottom: 15px;
+    padding: 20px;
+    margin-left: -60px;
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  
+  .insta {
+    margin-top: 20%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .linkedin {
+    margin-top: -15%;
+    width: 50px;
+    height: 50px;
+  }
+.github{
+   margin-top: -15%;
+    width: 50px;
+    height: 50px;
+}
 }
